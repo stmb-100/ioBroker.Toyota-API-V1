@@ -1,0 +1,77 @@
+{
+	"common": {
+		"name": "toyota-api-v1",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Toyota API V 1.0",
+			"de": "Toyota API V 1.0",
+			"ru": "Toyota API версии 1.0",
+			"pt": "Toyota API V 1.0",
+			"nl": "Toyota API V 1.0",
+			"fr": "Toyota API V 1.0",
+			"it": "Toyota API V 1.0",
+			"es": "Toyota API V 1.0",
+			"pl": "Toyota API V 1.0",
+			"zh-cn": "丰田API V 1.0"
+		},
+		"desc": {
+			"en": "toyota-api-v1",
+			"de": "toyota-api-v1",
+			"ru": "toyota-api-v1",
+			"pt": "toyota-api-v1",
+			"nl": "toyota-api-v1",
+			"fr": "toyota-api-v1",
+			"it": "toyota-api-v1",
+			"es": "toyota-api-v1",
+			"pl": "toyota-api-v1",
+			"zh-cn": "丰田api-v1"
+		},
+		"authors": [
+			"Stefan Muehlbauer <github@stmb-mail.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"icon": "toyota-api-v1.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/stmb-100/iobroker.toyota-api-v1/master/admin/toyota-api-v1.png",
+		"readme": "https://github.com/stmb-100/iobroker.toyota-api-v1/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "vehicle",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
