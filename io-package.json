@@ -70,9 +70,9 @@
 	},
 	"native": {
 		"option1": true,
-		"option2": "42"
-		"option3": "45"
-		"input1": "192.168.xx.xx",
+		"option2": "42",
+		"option3": "45",
+		"input1": "192.168.xx.xx"
 	},
 	"objects": [],
 	"instanceObjects": []
