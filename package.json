@@ -1,6 +1,6 @@
 {
   "name": "iobroker.toyota-api-v1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "toyota-api-v1",
   "author": {
     "name": "Stefan Muehlbauer",
